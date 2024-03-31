@@ -13,7 +13,7 @@ submitBtn.addEventListener("click", async (e) => {
 });
 
 async function apiEmail(email) {
-    const YOUR_APIKEY = `ema_live_DQOyun2BfWPPk8X9HuimiU2681rp6rN8FZ56YYND`;
+    const YOUR_APIKEY = `your_api_key_here`;
     const api = `https://api.emailvalidation.io/v1/info?apikey=${YOUR_APIKEY}&email=${email}`;
 
     try {
